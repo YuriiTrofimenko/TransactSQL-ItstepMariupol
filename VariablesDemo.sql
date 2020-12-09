@@ -1,0 +1,4 @@
+﻿DECLARE @X INT = 10;
+-- SELECT @X;
+SET @X = @X + 1;
+SELECT @X;

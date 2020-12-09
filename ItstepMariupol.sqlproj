@@ -61,5 +61,6 @@
     <None Include="CreateTables.sql" />
     <None Include="Data.sql" />
     <None Include="Queries.sql" />
+    <None Include="VariablesDemo.sql" />
   </ItemGroup>
 </Project>
