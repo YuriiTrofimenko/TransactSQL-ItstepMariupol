@@ -1,0 +1,5 @@
+﻿CREATE TABLE [GroupTypes] (
+	[id] INT IDENTITY(1,1) PRIMARY KEY,
+	[name] VARCHAR(25) NOT NULL,
+	[created_at] DATETIME DEFAULT GETDATE()
+);
