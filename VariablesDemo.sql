@@ -1,4 +1,42 @@
-﻿DECLARE @X INT = 10;
--- SELECT @X;
+﻿--DECLARE @X INT = 10;
+---- SELECT @X;
+--SET @X = @X + 1;
+--SELECT @X;
+
+--DECLARE @X FLOAT = 10.9;
+--SET @X = @X + 1;
+--SELECT @X;
+
+/* DECLARE @X DECIMAL(10,2) = 10.9;
 SET @X = @X + 1;
+SELECT @X; */
+
+/* DECLARE @X CHAR = 'ABC';
+SELECT @X; */
+
+--DECLARE @X NCHAR = N'Б';
+--SELECT @X;
+
+/* DECLARE @X CHAR(25) = 'ABC';
 SELECT @X;
+
+DECLARE @Y NCHAR(25) = N'Б';
+SELECT @Y;
+
+SELECT @X + @Y; */
+
+/* DECLARE @X VARCHAR(25) = 'ABC';
+SELECT @X;
+
+DECLARE @Y NVARCHAR(25) = N'Б';
+SELECT @Y;
+
+SELECT @X + @Y; */
+
+DECLARE @X VARCHAR(MAX) = 'ABC';
+SELECT @X;
+
+DECLARE @Y NVARCHAR(MAX) = N'Б';
+SELECT @Y;
+
+SELECT @X + @Y;
